@@ -5,7 +5,6 @@ BOARD_MAINTAINER="chraac"
 BOOTCONFIG="orangepi_zero2w_defconfig"
 BOOTBRANCH="tag:v2025.04"
 BOOTPATCHDIR="v2025-sunxi"
-BOOTDIR="u-boot-${BOARD}" # do not share u-boot directory
 BOOT_LOGO="desktop"
 OVERLAY_PREFIX="sun50i-h616"
 KERNEL_TARGET="current,edge"
